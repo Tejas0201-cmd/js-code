@@ -63,3 +63,45 @@ console.log(typeof myFunction);
 
 // null datatype => "object"
 // function datatype => object function
+
+
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// Stack (Primitive) , Heap (Non-Primitive)
+
+// Stack => Ek block ke upr ek block
+
+// Heap => Ek bada block
+
+
+let myYoutubeChannel = "TejasTripathi"
+
+let anothername = myYoutubeChannel // isko ek copy mili
+anothername = "Achieve the goal" // to change bhi copy hui
+
+// Stack me copy jaati hai agr koi value kisi aur variable me store krenge to copy hi milta hai
+
+
+console.log(myYoutubeChannel);
+console.log(anothername);
+
+let user = {
+    email: "user@gmail.com",
+    upi: "user@ybl",
+}
+
+let usertwo = user
+
+// objects me . lagake koi bhi value access krte hai
+
+usertwo.email = "tejas@gmail.com"
+
+
+// Heap me original value jaati hai mtlb value change krne pe original value change hoti hai
+
+
+console.log(user.email);
+console.log(usertwo.email);
