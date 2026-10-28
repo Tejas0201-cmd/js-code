@@ -13,7 +13,7 @@ const balance = new Number(488)
 
 // toString => used to convert it in string
 // length => to check length of number
-// toFixed => used for putting decimal places after number
+// toFixed => used for putting decimal places after number ( useful in E-Commerce Applications)
 
 
 const otherNumber = 23.8966
@@ -48,3 +48,10 @@ const min = 10
 const max = 20
 
 console.log(Math.floor(Math.random() * (max - min + 1))+min);
+
+
+/* 
+💡 INTERVIEW SPECIAL: Random Range Formula
+Formula: Math.floor(Math.random() * (max - min + 1)) + min
+Reason: Math.random() gives 0 to 1 decimal, we stretch and shift it!
+*/
