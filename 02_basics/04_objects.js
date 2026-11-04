@@ -54,13 +54,14 @@ const users = [                  // database se value kaise aati hai
 
 users[1].email
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));  
-console.log(Object.values(tinderUser)); // ye values deta hai object ki
-console.log(Object.entries(tinderUser)); // ye entries deta hai 1 property keyu hogi 2nd value hogi
+// console.log(Object.keys(tinderUser));  
+// console.log(Object.values(tinderUser)); // ye values deta hai object ki
 
-console.log(tinderUser.hasOwnProperty('name'));
+// console.log(Object.entries(tinderUser)); // ye entries deta hai 1 property keyu hogi 2nd value hogi
+
+// console.log(tinderUser.hasOwnProperty('name'));
 
 // hasOwnProperty() => checks if a property named in the bracket() is in the object or not , if it is it gives true else it gives false
 
@@ -69,3 +70,42 @@ console.log(tinderUser.hasOwnProperty('name'));
 // values() => it gives values of the objects declared in key
 
 // entries => it gives the output in this format {key , value} 
+
+
+
+const course = {
+    coursename: "JS in hindi",
+    price: "999",
+    courseInstructor: "Hitesh",
+}
+
+// course.courseInstructor
+
+
+// Method to access a property in a object write in curly braces
+const {courseInstructor : Instructor} = course
+
+// console.log(courseInstructor);
+// console.log(Instructor);
+
+// { } => curly braces mtlb destructuring ki ja rhi hai
+
+
+
+// JSON structure (API) ->
+
+/*
+{
+    "name": "Hitesh",
+    "coursename": "js in hindi",
+    "price": "free"
+}
+    */
+
+// object is sent in json format
+
+[
+    {},
+    {},
+    {}
+]
