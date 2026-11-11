@@ -18,3 +18,8 @@
 
 // How to pass 2 IIFE?
 // Ans ->          ; lagake
+
+
+// IIFE => ye help krta hai agar ek variable agar same name ka 2 function me declared hai to vo completely alag hai dono ise use krne pe .
+
+// bahar uss variable ko access krne pe vo undefined dega output me kyuki ab hum usse global scope me access kr rhe aur vo variable function me declared hai to it has no value in global scope to undefined dega
