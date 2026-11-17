@@ -35,3 +35,5 @@ switch (month) {
 // switch me har case ke baad break lagan zruri hota hai nhi to ek baar agar koi case match ho gya to uske baad ka jitna bhi case hoga sb print ho jayega (((except default case)))
 
 // case ke aage jo bhi variables hai jaise months ke name to har case ke aage different months ke name likhna hai aur jo bhi match krega key wale name se vo print ho jayega simple bss
+
+// yaad krne wali baat..... => switch ke bracket me vhi likhna hai jo ki ise likhne se pehle define kiye ho aur jise hum search krna ho switch ke andr different cases me
