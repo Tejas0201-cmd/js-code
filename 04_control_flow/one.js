@@ -37,6 +37,10 @@ const balance = 1000
 
 // so above it is a implicit scope as it executes only in one line strictly
 
+
+// if(balance < 500),console.log("one"),console.log("second")
+// above one should not be done it is not a good practice and it reduces readibility of the code
+
 /*
  if(balance < 500){
     console.log("less than 500");
