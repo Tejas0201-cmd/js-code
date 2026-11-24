@@ -22,10 +22,6 @@ console.log(New);
 
 
 
-
-
-
-
 // chaining method  =>>  do teen methods ko jb hum ek sath kisi bhi array ya object ya kisi pe bhi lagate hai to us method ko hum chaining method .
 // Example -> map lagaya fir map lagaya fir filter laga diya
 
